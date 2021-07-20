@@ -2,8 +2,7 @@
    <head>
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=h1, initial-scale=1.0">
-      <meta name="viewport" content="width=device-width, initial-scale1.0" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta property="og:title" content="js lessons dz1" />
       <meta name="keywords" content="html/css" />
       <title>js lessons dz1</title>
@@ -13,7 +12,7 @@
       <header>
          <nav>
             <div class="menuLeft">
-               <div class="logoWeb">Web<span class="logoStudio">Studio</span></div>
+               <a href="#"><div class="logoWeb">Web<span class="logoStudio">Studio</span></div></a>
                <div class="navItem"><a href="#">Студия</a></div>
                <div class="navItem"><a href="#">Портфолио</a></div>
                <div class="navItem"><a href="#">Контакты</a></div>
@@ -27,7 +26,9 @@
       <main>
          <div class="mainBanner">
             <p class="mainText">Эффективные решения<br>для вашего бизнеса</p>
-            <div class="mainButton"><span>Заказать услугу</span></div>
+            <a href="#">
+               <div class="mainButton"><span>Заказать услугу</span></div>
+            </a>
          </div>
          <div class="prosBlock">
             <div class="item item-1">
@@ -54,43 +55,39 @@
                <img src="/imgdz1/work2.jpg" alt="">  
                <img src="/imgdz1/work3.jpg" alt="">
             </div>
-          </div>
-
+         </div>
          <div class="ourWorkBlock">
             <h2>Наша команда</h2>
-
             <div class="ourWorkImg">
-               <div class="p1Block">
+               <div class="pBlock">
                   <img src="/imgdz1/p1.jpg" alt="">
-                  <p>Игорь Демьяненко</p>
-                  <p>Product Designer</p>
+                  <p class="pName">Игорь Демьяненко</p>
+                  <p class="pPosition">Product Designer</p>
                </div>
-               <div class="p2Block">
+               <div class="pBlock">
                   <img src="/imgdz1/p2.jpg" alt=""> 
-                  <p>Игорь Демьяненко</p>
-                  <p>Product Designer</p>
+                  <p class="pName">Игорь Демьяненко</p>
+                  <p class="pPosition">Product Designer</p>
                </div>
-            
-            <div class="p3Block">
-               <img src="/imgdz1/p3.jpg" alt=""> 
-               <p>Игорь Демьяненко</p>
-               <p>Product Designer</p>
+               <div class="pBlock">
+                  <img src="/imgdz1/p3.jpg" alt=""> 
+                  <p class="pName">Игорь Демьяненко</p>
+                  <p class="pPosition">Product Designer</p>
+               </div>
+               <div class="pBlock">
+                  <img src="/imgdz1/p4.jpg" alt=""> 
+                  <p class="pName">Игорь Демьяненко</p>
+                  <p class="pPosition">Product Designer</p>
+               </div>
             </div>
-         
-         <div class="p4Block">
-            <img src="/imgdz1/p4.jpg" alt=""> 
-            <p>Игорь Демьяненко</p>
-            <p>Product Designer</p>
          </div>
-         </div>
-         </div> 
       </main>
       <footer>
          <div class="footerBlock">
-            <div class="logoWeb">Web<span class="logoStudio">Studio</span></div>
+          <a href="#"><div class="logoWeb">Web<span class="logoStudio">Studio</span></div></a>>
             <div class="footerAdres">г. Киев, пр-т Леси Украинки, 26</div>
-            <div><a href="mailto:info@devstudio.com">info@devstudio.com</a></div>
-            <div><a href="+38 096 111 11 11">+38 096 111 11 11</a></div>
+            <div class="footerMail"><a href="mailto:info@devstudio.com">info@devstudio.com</a></div>
+            <div class="footerNumber" ><a href="+38 096 111 11 11">+38 096 111 11 11</a></div>
          </div>
       </footer>
    </body>
