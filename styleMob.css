@@ -1,0 +1,142 @@
+@media only screen and (max-width:768px) {
+    body {
+        width: 768px;
+    }
+    .menuLeft,
+    .menuRight {
+        display: none;
+    }
+    .navMob {
+        display: block;
+        align-items: center;
+    }
+    .mainText {
+        line-height: 1.3;
+    }
+    .mainButton {
+        width: 330px;
+        height: 60px;
+    }
+    .mainButton span {
+        font-size: 30px;
+        white-space: nowrap;
+    }
+    .prosBlock {
+        padding: 60px 0;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .prosBlock .item h3 {
+        font-size: 22px;
+    }
+    .prosBlock .item p {
+        font-size: 23px;
+        margin-bottom: 35px;
+    }
+    .weDoBlock h2 {
+        font-size: 44px;
+    }
+    .weDoImg {
+    display: grid;
+    grid-template: 160px /repeat(3,33.33%);
+    width: 80%;
+    margin: 0 auto 60px;
+    }
+    .weDoItem:nth-child(2) {
+        margin: 0 5%;
+    }
+
+    .weDoItem:nth-child(1) {
+        margin-right:10%;
+    }
+
+    .weDoItem:nth-child(3) {
+        margin-left:10%;
+    }
+
+
+    .ourWorkImg {
+        display: grid;
+       grid-template: 400px 400px/repeat(2,50%);
+        width: 80%;
+    }
+
+    
+
+    .pBlock {
+        margin-right: 0;
+    }
+
+    .pBlock{
+        margin: 20px;
+    }
+
+.pBlock:last-child{
+      margin: 20px 30px 20px 20px;
+    }
+
+    .ourWorkBlock h2 {
+        font-size: 44px;
+    }
+    
+    .footerBlock {
+        text-align: center;
+    }
+
+    .logoWeb {
+        font-size: 40px;
+    }
+
+    .footerMob {
+  display: block;
+  
+}
+}
+
+
+
+
+
+@media only screen and (max-width:500px) {
+    
+    .weDoImg {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto 94px;
+    }
+    .weDoItem:nth-child(2) {
+        margin: 50px 0;
+    }
+
+    .weDoItem:nth-child(1) {
+        margin-right:0;
+    }
+
+    .weDoItem:nth-child(3) {
+        margin-left:0;
+    }
+    .ourWorkImg {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    .pBlock:nth-child(-n+3) {
+        margin-right: 0;
+    }
+
+    .pBlock:last-child {
+    margin: 20px 0px 20px 20px;
+}
+    .ourWorkBlock h2 {
+        font-size: 44px;
+    }
+    .pName,
+    .pPosition {
+        font-size: 25px;
+    
+}
+}
